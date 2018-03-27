@@ -1,0 +1,117 @@
+/* CSS Document */
+/*banner*/
+.m_banner{width:100%; padding-top:1.74rem;}
+.m_banner .swiper-banner{width:100%;}
+.m_banner .swiper-banner .slide-img img{ width:100%;}
+.m_banner .swiper-pagination-bullet { width:0.18rem; height:0.18rem; display:inline-block; border-radius:50%; background:#fff; opacity:0.4;}
+.m_banner .swiper-pagination-bullet-active{ background:#fff; opacity:1;}
+/*nav*/
+.nav{width:100%; height:1.74rem;background:#f5f5f5;}
+.nav .nav-main{width:100%; height:1.58rem; background:#fff; column-count:4;}
+.nav .nav-main li{width:100%; height:1.12rem; float:left; margin-top:0.22rem;}
+.nav .nav-main li a{width:100%; height:100%;}
+.nav .nav-main li a img{width:0.98rem; height:0.70rem; margin:0 auto;}
+.nav .nav-main li a p{font-size:0.24rem; color:#666; text-align:center; margin-top:0.08rem;}
+/*m_floor_notice*/
+.m_floor_notice{ width:100%; height:0.8rem; padding:0 0.2rem; line-height:0.8rem; display:flex; background:#f5f5f5;}
+.m_floor_notice h2{ width:1.92rem; font-size:0.3rem; color:#524548; }
+.m_floor_notice h2 span{ color:#fff; background:#ecbbb3;  padding:0.02rem 0.1rem; font-size:0.28rem; border-radius:0.1rem; margin-left:0.06rem;}
+.m_floor_notice .notice{ flex:1; min-width:0;/*最小宽度为0解决不换行的问题*/ height:0.8rem; padding-left:0.3rem;}
+.m_floor_notice .notice .swiper-container{ width:100%;  height:100%; }
+.m_floor_notice .notice .swiper-container .swiper-slide{ width:100%; height:0.8rem; line-height:0.8rem; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; color:#524548; }
+/*m_floor_kill*/
+.m_floor_kill{ width:100%; background:#f5f5f5; }
+.m_floor_kill .seconds{ width:100%; height:0.9rem; display:flex; line-height:0.7rem; padding:0 0.2rem; position:relative;}
+.m_floor_kill .seconds p{width:1.2rem; font-size:0.3rem; color:#524548; margin-right:0.1rem;}
+.m_floor_kill .seconds .time_num{ flex:1; font-size:0.24rem;}
+.m_floor_kill .seconds.time_num span{ font-size:0.26rem; padding-left:0.2rem;}
+.m_floor_kill .seconds .time_num i{ padding:0.04rem 0.1rem; background:#7f888d; color:#fff; border-radius:0.1rem;}
+.m_floor_kill .seconds a{ width:2.6rem; display:block; font-size:0.28rem; position:absolute; right:0.2rem; top:36%; transform:translateY(-50%); text-align:right; color:#524548;}
+/*section1*/
+.section1{width:100%; height:5.46rem; display:flex; justify-content: space-between; background:#f5f5f5;}
+.section1 .section1-l{flex:0.5; height:5.32rem; float:left;}
+.section1 .section1-l a img{width:3.72rem; height:100%;}
+.section1 .section1-r{flex:0.5; height:5.32rem; float:right; padding-left:0.04rem;}
+.section1 .section1-r a img{width:3.72rem; height:2.62rem;}
+/*section2 */
+.section2{width:100%; background:#f5f5f5;}
+.section2 .section2-up{width:100%; height:6.2rem;}
+.section2 .section2-up a img{width:100%; height:2.94rem; margin-bottom:0.16rem;} 
+.section2 .section2-down{width:100%; height:20.32rem;}
+.section2 .section2-down .section2-t{width:100%; height:4.58rem;}
+.section2 .section2-down .section2-t a img{width:100%;}
+.section2 .section2-down .section2-b{width:100%; height:15.8rem; background:#fff;}
+.section2 .section2-down .section2-b ul{width:100%; height:100%; display:flex; justify-content: space-between; flex-wrap:wrap; }
+.section2 .section2-down .section2-b ul li{width:3.72rem; height:5.20rem; padding-top:0.04rem; position:relative;}
+.section2 .section2-down .section2-b ul li a{width:3.72rem; height:5.2rem;}
+.section2 .section2-down .section2-b ul li img{width:100%;height:3.76rem;}
+.section2 .section2-down .section2-b ul li h3{height:0.56rem; line-height:0.56rem; font-size:0.3rem; color:#212121; padding-left:0.2rem; margin-top:0.1rem; font-family:"华文细黑";}
+.section2 .section2-down .section2-b ul li p{height:0.26rem; line-height:0.26rem; font-size:0.26rem; color:#333; padding-left:0.2rem; font-family:"华文细黑";}
+.section2 .section2-down .section2-b ul li .price{height:0.46rem; line-height:0.46rem; font-size:0.26rem; color:#e8564e; padding-left:0.2rem;}
+.section2 .section2-down .section2-b ul li .price span{font-size:0.24rem; margin-left:0.1rem;}
+.section2 .section2-down .section2-b ul li .sub{width:1.26rem; height:0.36rem; line-height:0.36rem; background:#eb6054; color:#fff; font-size:0.24rem; text-align:center; position:absolute; top:0.04rem; left:0; border-radius:0 0 0.08rem 0;}
+/*section3*/
+.section3{width:100%; background:#f5f5f5; padding-top:0.16rem;}
+.section3 .section3-up{width:100%; height:3.14rem;}
+.section3 .section3-up a img{width:100%; height:2.94rem;} 
+.section3 .section3-down{width:100%; height:21.54rem;}
+.section3 .section3-down .section3-t{width:100%; height:4.58rem;}
+.section3 .section3-down .section3-t a img{width:100%;}
+.section3 .section3-down .section3-b{width:100%; height:15.8rem; background:#fff;}
+.section3 .section3-down .section3-b ul{width:100%; height:100%; display:flex; justify-content: space-between; flex-wrap:wrap; border-bottom:1px solid #c0c0c0;}
+.section3 .section3-down .section3-b ul li{width:3.72rem; height:5.20rem; padding-top:0.04rem; position:relative;}
+.section3 .section3-down .section3-b ul li img{width:3.72rem;}
+.section3 .section3-down .section3-b ul li h3{height:0.56rem; line-height:0.56rem; font-size:0.3rem; color:#212121; padding-left:0.2rem; margin-top:0.1rem; font-family:"华文细黑";}
+.section3 .section3-down .section3-b ul li p{height:0.26rem; line-height:0.26rem; font-size:0.26rem; color:#333; padding-left:0.2rem; font-family:"华文细黑";}
+.section3 .section3-down .section3-b ul li .price{height:0.46rem; line-height:0.46rem; font-size:0.26rem; color:#e8564e; padding-left:0.2rem;}
+.section3 .section3-down .section3-b ul li .price span{font-size:0.24rem; margin-left:0.1rem;}
+.section3 .section3-down .section3-b ul li .sub{width:1.26rem; height:0.36rem; line-height:0.36rem; background:#eb6054; color:#fff; font-size:0.24rem; text-align:center; position:absolute; top:0.04rem; left:0; border-radius:0 0 0.08rem 0;}
+.section3 .section3-down .more{width:100%; height:1.22rem; line-height:1.22rem; text-align:center; background:#fff; font-size:0.28rem;}
+.section3 .section3-down .more a{color:#000;}
+/*section4*/
+.section4{width:100%; background:#f5f5f5; padding-top:0.16rem;}
+.section4 .section4-up{width:100%; height:3.14rem;}
+.section4 .section4-up a img{width:100%; height:2.94rem;} 
+.section4 .section4-down{width:100%; height:16.96rem;}
+.section4 .section4-down .section4-t{width:100%; height:4.58rem;}
+.section4 .section4-down .section4-t a img{width:100%;}
+.section4 .section4-down .section4-b{width:100%; height:11.32rem; background:#fff;} 
+.section4 .section4-down .section4-b ul{width:100%; height:100%; display:flex; justify-content: space-between; flex-wrap:wrap; border-bottom:1px solid #c0c0c0; padding-top:0.06rem;}
+.section4 .section4-down .section4-b ul li{width:3.74rem;height:3.74rem;}
+.section4 .section4-down .section4-b ul li a{width:100%; height:100%;}
+.section4 .section4-down .section4-b ul li a img{width:100%; height:100%;}
+.section4 .section4-down .section4-b ul li a h3{padding-left:0.32rem; padding-top:0.7rem; font-size:0.3rem; color:#212121;}
+.section4 .section4-down .section4-b ul li a p{height:0.76rem; line-height:0.38rem; padding-top:0.08rem; padding-left:0.32rem; font-size:0.26rem; color:#5e5e5e;}
+.section4 .section4-down .section4-b ul li a .price{height:0.78rem; line-height:0.78rem; padding-left:0.32rem; font-size:0.3rem; color:#ea5d56;}
+.section4 .section4-down .section4-b ul li a .price span{font-size:0.26rem;}
+ 
+.section4 .section4-down .more{width:100%; height:1.22rem; line-height:1.22rem; text-align:center; background:#fff; font-size:0.28rem;}
+.section4 .section4-down .more a{color:#000;}
+/*section5*/
+.section5{width:100%; background:#f5f5f5; padding-top:0.16rem;}
+.section5 .section5-up{width:100%; height:3.14rem;}
+.section5 .section5-up a img{width:100%; height:2.94rem;} 
+.section5 .section5-down{width:100%; height:21.54rem;}
+.section5 .section5-down .section5-t{width:100%; height:4.58rem;}
+.section5 .section5-down .section5-t a img{width:100%;}
+.section5 .section5-down .section5-b{width:100%; height:15.8rem; background:#fff;}
+.section5 .section5-down .section5-b ul{width:100%; height:100%; display:flex; justify-content: space-between; flex-wrap:wrap; border-bottom:1px solid #c0c0c0;}
+.section5 .section5-down .section5-b ul li{width:3.72rem; height:5.20rem; padding-top:0.04rem; position:relative;}
+.section5 .section5-down .section5-b ul li img{width:3.72rem;}
+.section5 .section5-down .section5-b ul li h3{height:0.56rem; line-height:0.56rem; font-size:0.3rem; color:#212121; padding-left:0.2rem; margin-top:0.1rem; font-family:"华文细黑";}
+.section5 .section5-down .section5-b ul li p{height:0.26rem; line-height:0.26rem; font-size:0.26rem; color:#333; padding-left:0.2rem; font-family:"华文细黑";}
+.section5 .section5-down .section5-b ul li .price{height:0.46rem; line-height:0.46rem; font-size:0.26rem; color:#e8564e; padding-left:0.2rem;}
+.section5 .section5-down .section5-b ul li .price span{font-size:0.24rem; margin-left:0.1rem; color:#676767;}
+.section5 .section5-down .section5-b ul li .sub{width:1.26rem; height:0.36rem; line-height:0.36rem; background:#eb6054; color:#fff; font-size:0.24rem; text-align:center; position:absolute; top:0.04rem; left:0; border-radius:0 0 0.08rem 0;}
+.section5 .section5-down .more{width:100%; height:1.22rem; line-height:1.22rem; text-align:center; background:#fff; font-size:0.28rem;}
+.section5 .section5-down .more a{color:#000;}
+/*section6*/
+.section6{width:100%; height:15.48rem; background:#f5f5f5; padding:0.16rem 0;}
+.section6 ul{width:100%; height:100%; background:#fff; display:flex; justify-content: space-between; flex-wrap:wrap;}
+.section6 ul li{width:3.72rem; height:5.08rem;}
+.section6 ul li a {width:100%; height:100%;}
+.section6 ul li a img{width:100%; height:5.02rem;}
+/*section7*/
+.section7{width:100%; height:2.92rem; background:#f5f5f5;}
+.section7 a{width:100%; height:100%;}
+.section7 a img{width:100%; height:100%;}

@@ -1,0 +1,13 @@
+/* CSS Document */
+.main{width:100%; height:100%; position:relative; top:1.74rem; margin-bottom:1.1rem; max-width:7.5rem; min-width:3.2rem; left:50%; transform:translateX(-50%); background:#f0f0f0;}
+.main .section1{width:100%; height:56.38rem;}
+.main .section1 img{width:100%;}
+.main .section2{width:100%; height:14.12rem; display:flex; justify-content:space-between; flex-wrap:wrap;}
+.main .section2 a img{flex:1; height:4.68rem;}
+.main .section3{width:100%; height:13.7rem; margin-top:0.7rem;}
+.main .section3 img{width:100%;}
+.main .section3 h2{width:100%; height:1.76rem; line-height:1.76rem; text-align:center; background:#d1d3c7; font-size:0.48rem; color:#070705;}
+.main .section4{width:100%; height:10.64rem;}
+.main .section4 a img{width:3.74rem; height:5.32rem; float:left;}
+.main .section5{width:100%; height:5.04rem;}
+.main .section5 img{width:100%; height:5.02rem;}

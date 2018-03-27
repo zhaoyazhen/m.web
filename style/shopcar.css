@@ -1,0 +1,80 @@
+/* CSS Document */
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.shop_header{width:100%; height:1.04rem; line-height:1.04rem; background:#f2f2f2; position:fixed; top:0;max-width:7.5rem; min-width:3.2rem; left:50%; transform:translateX(-50%); z-index:1000; padding:0 0.36rem;}
+.shop_header i{height:1.04rem; line-height:1.04rem; font-size:0.4rem; font-weight:600;}
+.shop_header i a{color:#8f8f8f;}
+.shop_header span{font-size:0.34rem; color:#5a5a5a; margin-left:2.48rem;}
+.shop_header b{font-size:0.4rem; margin-left:2.48rem;}
+.shop_header b a{color:#8f8f8f;}
+/*shop-main*/
+.shop-main{width:100%; height:100%; position:relative; top:1.04rem; margin-bottom:1.04rem; max-width:7.5rem; min-width:3.2rem; left:50%; transform:translateX(-50%); background:#fff;}
+.shop-main h2{width:100%; height:1.04rem; line-height:1.04rem; padding:0 0.3rem; font-size:0.3rem; color:#060606;}
+.shop-main h2 a{font-size:0.26rem; color:#585858; float:right; overflow:hidden;}
+.shop-main h2 a i{font-size:0.28rem; color:#585858; margin-left:0.1rem;} 
+/*section1*/
+.shop-main .section1{width:100%; height:4.72rem;}
+.shop-main .section1 ul{width:100%; height:100%;}
+.shop-main .section1 ul .bottom{border-bottom:1px solid #f6f6f6;}
+.shop-main .section1 ul li{width:100%; height:2.36rem;}
+.shop-main .section1 ul li .section1-l{width:0.6rem; height:100%; line-height:2.36rem; position:relative; float:left;}
+.shop-main .section1 ul li .section1-l input{width:0.42rem; height:0.42rem;position:absolute; top:0.96rem;-webkit-appearance: none; outline: none; background:url(../images/shopcar8.jpg) no-repeat; border:1px solid #fe5025; border-radius:50%; overflow:hidden;background-size:0.44rem; background-position:center;}
+.shop-main .section1 ul li .section1-l input:checked{background:url(../images/shopcar7.jpg) no-repeat; background-size:0.44rem; background-position:center;} 
+.shop-main .section1 ul li .section1-m{width:1.9rem; height:2.36rem; float:left; padding-top:0.24rem;}
+.shop-main .section1 ul li .section1-m a img{width:100%; height:1.9rem; display:block; border:1px solid #f4f4f4;}
+.shop-main .section1 ul li .section1-r{width:4.48rem; height:100%; padding-top:0.24rem; float:left; margin-left:0.2rem; position:relative;}
+.shop-main .section1 ul li .section1-r h3{width:4.2rem; height:0.68rem; line-height:0.34rem; color:#585858; font-size:0.28rem;}
+.shop-main .section1 ul li .section1-r h4{width:100%; height:0.46rem; line-height:0.46rem; font-size:0.26rem; color:#acacac;}
+.shop-main .section1 ul li .section1-r h4 span{margin-left:0.28rem;}
+.shop-main .section1 ul li .section1-r p{width:1.98rem; height:0.68rem; line-height:0.68rem; margin-top:0.04rem; border:1px solid #e9e9e9;}
+.shop-main .section1 ul li .section1-r p a .jian{width:0.64rem; height:100%; font-size:0.6rem; color:#cdcdcd; text-align:center; background:#fafafa; display:block; float:left;} 
+.shop-main .section1 ul li .section1-r p .shu{width:0.64rem; height:100%; font-size:0.3rem; color:#646464; text-align:center; background:#fff; display:block; float:left;} 
+.shop-main .section1 ul li .section1-r p a .jia{width:0.64rem; height:100%; font-size:0.6rem; color:#cdcdcd; text-align:center; background:#fafafa; display:block; float:left;} 
+.shop-main .section1 ul li .section1-r a .icon3{font-size:0.38rem; color:#979797; position:absolute; top:1.58rem; left:4.02rem;}
+/*section2*/
+.shop-main .section2{width:100%; height:4.84rem;}
+.shop-main .section2 .section2-t{width:7.06rem; height:0.84rem; margin:0 auto; background:#f6f6f6;}
+.shop-main .section2 .section2-t p{height:0.84rem; line-height:0.84rem;  padding-left:0.86rem; font-size:0.26rem; color:#3b3b3b; background:url(../images/shopcar4.png) no-repeat; background-position:0.2rem 0.2rem; background-size:0.48rem 0.48rem;}
+.shop-main .section2 .section2-t p a{margin-left:2.86rem; color:#e15c00;}
+.shop-main .section2 .section2-m{width:100%; height:2.44rem; margin-top:0.2rem; border-top:1px solid #f6f6f6;border-bottom:0.04rem solid #f6f6f6;}
+.shop-main .section2 .section2-m ul{width:100%; height:100%; padding-left:0.6rem;}
+.shop-main .section2 .section2-m ul .m-1{width:1.9rem; height:100%; float:left; padding-top:0.24rem;}
+.shop-main .section2 .section2-m ul .m-1 img{width:100%; height:1.88rem; display:block; border:1px solid #f4f4f4;}
+.shop-main .section2 .section2-m ul .m-2{width:4.48rem; height:100%; padding-top:0.56rem; float:left; margin-left:0.2rem;}
+.shop-main .section2 .section2-m ul .m-2 .m-2-top{font-size:0.28rem; color:#575757;}
+.shop-main .section2 .section2-m ul .m-2 .m-2-top span{width:0.68rem; height:0.4rem; line-height:0.4rem; font-size:0.24rem; color:#fff; margin-right:0.1rem;background:#5975d6; display:inline-block; text-align:center; border-radius:0.1rem;}
+.shop-main .section2 .section2-m ul .m-2 .m-2-bottom{width:1.98rem; height:0.68rem; line-height:0.68rem; margin-top:0.16rem; border:1px solid #e9e9e9;}
+.shop-main .section2 .section2-m ul .m-2 .m-2-bottom a .jian{width:0.64rem; height:100%; font-size:0.6rem; color:#cdcdcd; text-align:center; background:#fafafa; display:block; float:left;}
+.shop-main .section2 .section2-m ul .m-2 .m-2-bottom .shu{width:0.64rem; height:100%; font-size:0.3rem; color:#646464; text-align:center; background:#fff; display:block; float:left;} 
+.shop-main .section2 .section2-m ul .m-2 .m-2-bottom .jia{width:0.64rem; height:100%; font-size:0.6rem; color:#cdcdcd; text-align:center; background:#fafafa; display:block; float:left;}
+.shop-main .section2 .section2-b{width:100%; height:2.84rem; padding-left:0.28rem;}
+.shop-main .section2 .section2-b h3{width:100%; height:0.66rem; line-height:0.66rem; border-bottom:1px solid #f6f6f6; font-size:0.24rem; color:#b2b2b2;}
+.shop-main .section2 .section2-b h3 span{width:0.6rem; height:0.3rem; line-height:0.3rem; font-size:0.24rem; color:#fff; margin-right:0.1rem;background:#5975d6; display:inline-block; text-align:center; border-radius:0.06rem;}
+.shop-main .section2 .section2-b p{width:100%; height:0.68rem; line-height:0.66rem; font-size:0.24rem; color:#b2b2b2;}
+/*section3*/
+.shop-main .section3{width:100%; height:16.0rem; background:#fff;}
+.shop-main .section3 >img{width:100%; height:1.46rem;}
+.shop-main .section3 ul{width:100%; height:14.58rem; display:flex; justify-content: space-between; flex-wrap:wrap; margin-top:0.06rem;}
+.shop-main .section3 ul li{width:3.72rem; height:4.84rem;}
+.shop-main .section3 ul li img{width:3.72rem;}
+.shop-main .section3 ul li h3{height:0.5rem; line-height:0.5rem; font-size:0.3rem; color:#212121; padding-left:0.2rem; margin-top:0.1rem; font-family:"华文细黑";}
+.shop-main .section3 ul li .price{height:0.46rem; line-height:0.46rem; font-size:0.26rem; color:#f65000; padding-left:0.2rem;}
+.shop-main .section3 ul li .price span{font-size:0.24rem; margin-left:0.1rem; color:#676767;}
+.foot{width:100%; height:1.02rem; background:#fff; position:fixed; bottom:0; left:0; max-width:7.5rem; min-width:3.2rem; left:50%; transform:translateX(-50%);  display:flex; justify-content: space-between; border-top:1px solid #f6f6f6;}
+.foot .foot-t{width:2.5rem; height:100%; padding-top:0.16rem; text-align:center; font-size:0.26rem; color:#aaaaaa;}
+.foot .foot-t span{font-size:0.32rem; color:#ff531e; margin-right:0.12rem;}
+.foot .foot-m{flex:1; height:100%; line-height:1.02rem; text-align:center; background:#f4f4f4; color:#222222; font-size:0.3rem;}
+.foot .foot-b{flex:1; height:100%; line-height:1.02rem; text-align:center; background:#ff6801; color:#fff; font-size:0.3rem;}

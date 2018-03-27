@@ -1,0 +1,518 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>小米商城-小米官方网站，小米手机，红米手机</title>
+<link rel="shortcut icon" type="image/icon" href="favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="style/m_base.css">
+<link rel="stylesheet" type="text/css" href="swiper.min.css">
+<link rel="stylesheet" type="text/css" href="style/swiper-4.1.0.min.css">
+<link rel="stylesheet" type="text/css" href="style/index.css">
+<link rel="stylesheet" type="text/css" href="js/swiper-4.1.0.min.js">
+<script src="js/adaptive.js"></script>
+</head>
+
+<body>
+<!--header-->
+<header class="header">
+    <div class="header-up">
+        <div class="header-up-l">
+             <img src="images/head.png"/>
+        </div>
+        <div class="header-up-m">
+            <form action="" method="post">
+                <input type="search" placeholder="搜索商品名称"/>
+                <button class="iconfont">&#xe627;</button>
+            </form>
+        </div>
+        <div class="header-up-r">
+             <a href="#" class="iconfont">&#xe64f;</a>
+        </div>
+    </div>
+    <div class="header-down">
+        <!-- Swiper -->
+        <div class="swiper-container swiper-down">
+           <div class="swiper-wrapper">
+              <div class="swiper-slide"><a href="index.html">推荐</a></div>
+              <div class="swiper-slide"><a href="#">手机</a></div>
+              <div class="swiper-slide"><a href="#">智能</a></div>
+              <div class="swiper-slide"><a href="#">电视</a></div>
+              <div class="swiper-slide"><a href="#">电脑</a></div>
+              <div class="swiper-slide"><a href="#">全面屏</a></div>
+              <div class="swiper-slide"><a href="#">生活周边</a></div>
+              <div class="swiper-slide"><a href="#">盒子</a></div>
+              <div class="swiper-slide"><a href="submenu/art.html">艺术</a></div>
+           </div>
+        </div>       
+         <!-- Swiper JS -->
+         <script src="js/swiper-4.1.0.min.js"></script> 
+         <script>
+            var swiper = new Swiper('.swiper-down', {			
+              slidesPerView: 'auto',
+			  loopedSlides : 9,
+              spaceBetween: 4,
+	          freeMode : true,
+              slideToClickedSlide: true,
+              loop: true,
+              loopFillGroupWithBlank: true,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+            });
+         </script>  
+           
+    </div>
+</header>
+<!--header end-->
+<!--main-->
+<main class="wrap">
+	<!--m_banner-->
+	<div class="m_banner">
+    	<!--swiper插件开始-->
+    	<div class="swiper-container swiper-banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide-img"><img src="images/banner1.jpg"></div>
+                <div class="swiper-slide slide-img"><img src="images/banner2.jpg"></div>
+                <div class="swiper-slide slide-img"><img src="images/banner3.jpg"></div>
+                <div class="swiper-slide slide-img"><img src="images/banner4.jpg"></div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination banner-pag"></div>
+  
+		</div>
+        <!--swiper插件结束-->
+    </div>
+    <!--m_banner end-->
+    <div class="nav">
+        <ul class="nav-main">
+            <li><a href="#">
+                 <img src="images/nav1.png"/>
+                 <p>米粉卡</p>
+                 </a></li>
+            <li><a href="#">
+                 <img src="images/nav2.png"/>
+                 <p>新品发布</p>
+            </a></li>
+            <li><a href="#">
+                 <img src="images/nav3.png"/>
+                 <p>以旧换新</p>
+            </a></li>
+            <li><a href="#">
+                 <img src="images/nav4.png"/>
+                 <p>物流查询</p>
+            </a></li>
+        </ul>
+    </div>
+     <!--m_floor_notice-->
+   <section class="m_floor_notice">
+		<h2>小米家<span>头条</span></h2>
+        <!--notice-->
+        <div class="notice">
+        	<!-- Swiper -->
+              <div class="swiper-container swiper-notice">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">满16元赢豪礼箭牌 满16元赢豪礼 </div>
+                  <div class="swiper-slide">爱拼才会赢，静等你来</div>
+                  <div class="swiper-slide">99元优惠券，点击领取</div>
+                  <div class="swiper-slide">用嘴品尝，用心记录，用爱分享</div>
+                </div>
+                
+              </div>
+        </div>
+   		<!--notice end-->
+   </section>
+   <!--m_floor_notice end-->
+   <section class="m_floor_kill">
+    	<div class="seconds">
+        	<p>掌上秒拍</p>
+            <div class="time_num">
+            	<span>距离结束</span>
+                <i>00</i> :
+                <i>38</i> :
+                <i>12</i>
+            </div>
+        	<a href="#">
+            	更多好礼等你去拿
+            </a>
+         </div>
+    </section>
+    <div class="section1">
+         <div class="section1-l">
+             <a href="#"><img src="images/main1.jpg"/></a>
+         </div>
+         <div class="section1-r">
+             <a href="#"><img src="images/main2.jpg"/></a>
+             <a href="#"><img src="images/main3.jpg" style="margin-top:0.06rem;"/></a>
+         </div>       
+    </div>
+    <!--m_floor-->
+    <div class="section2">
+        <div class="section2-up">
+             <a href="#"><img src="images/main4.jpg"/></a>
+             <a href="#"><img src="images/main5.jpg"/></a>
+        </div>
+        <div class="section2-down">
+             <div class="section2-t">
+                 <a href="#"><img src="images/main6.jpg"/></a>
+             </div>
+             <div class="section2-b">
+                 <ul>
+                     <li><a href="#">
+                          <img src="images/main7.png"/>
+                          <h3>小米Note 3 人脸解锁</h3>
+                          <p>5.5"高清大屏</p>
+                          <div class="price">
+                             ￥1999<span>起</span>
+                          </div>
+                          <div class="sub">
+                              用券减50
+                          </div>  
+                      </a> </li>
+                       <li><a href="#">
+                          <img src="images/main7-1.png"/>
+                          <h3>红米5A 16GB</h3>
+                          <p>轻巧长续航</p>
+                          <div class="price">
+                             ￥599<span>起</span>
+                          </div>
+                          <div class="sub">
+                              赠耳机
+                          </div>  
+                      </a> </li>
+                       <li><a href="#">
+                          <img src="images/main9.png"/>
+                          <h3>小米Note 3 人脸解锁</h3>
+                          <p>5.5"高清大屏</p>
+                          <div class="price">
+                             ￥1999<span>起</span>
+                          </div> 
+                      </a> </li>
+                      <li><a href="#">
+                          <img src="images/main8.png"/>
+                          <h3>红米Note 4X</h3>
+                          <p>多彩金属,超长续航</p>
+                          <div class="price">
+                             ￥999<span>起</span>
+                          </div>
+                          <div class="sub">
+                              用券减50
+                          </div>  
+                      </a> </li>
+                       <li><a href="#">
+                          <img src="images/main10.png"/>
+                          <h3>小米充电宝</h3>
+                          <p>5.5"高清大屏</p>
+                          <div class="price">
+                             ￥99<span>起</span>
+                          </div>
+                      </a> </li>
+                       <li><a href="#">
+                          <img src="images/main11.jpg"/>
+                          <h3>红米4A 全网通版</h3>
+                          <p>5.5"高清大屏</p>
+                          <div class="price">
+                             ￥1999<span>起</span>
+                          </div>
+                          <div class="sub">
+                              立减50元
+                          </div>  
+                      </a> </li>
+                 </ul>
+             </div>
+        </div>
+    </div>
+    <!--section3-->
+    <div class="section3">
+        <div class="section3-up">
+             <a href="#"><img src="images/main12.jpg"/></a>
+        </div>
+        <div class="section3-down">
+             <div class="section3-t">
+                 <a href="#"><img src="images/main13.jpg"/></a>
+             </div>
+             <div class="section3-b">
+                 <ul>
+                     <li><a href="#">
+                          <img src="images/main14.jpg"/>
+                          <h3>小米Note 3 人脸解锁</h3>
+                          <p>5.5"高清大屏</p>
+                          <div class="price">
+                             ￥1999<span>起</span>
+                          </div>
+                          <div class="sub">
+                              用券减50
+                          </div>  
+                      </a> </li>
+                       <li><a href="#">
+                          <img src="images/main15.jpg"/>
+                          <h3>红米5A 16GB</h3>
+                          <p>轻巧长续航</p>
+                          <div class="price">
+                             ￥599<span>起</span>
+                          </div>
+                          <div class="sub">
+                              赠耳机
+                          </div>  
+                      </a> </li>
+                       <li><a href="#">
+                          <img src="images/main16.jpg"/>
+                          <h3>小米Note 3 人脸解锁</h3>
+                          <p>5.5"高清大屏</p>
+                          <div class="price">
+                             ￥1999<span>起</span>
+                          </div> 
+                      </a> </li>
+                      <li><a href="#">
+                          <img src="images/main17.jpg"/>
+                          <h3>红米Note 4X</h3>
+                          <p>多彩金属,超长续航</p>
+                          <div class="price">
+                             ￥999<span>起</span>
+                          </div>
+                          <div class="sub">
+                              用券减50
+                          </div>  
+                      </a> </li>
+                       <li><a href="#">
+                          <img src="images/main18.jpg"/>
+                          <h3>小米充电宝</h3>
+                          <p>5.5"高清大屏</p>
+                          <div class="price">
+                             ￥1999<span>起</span>
+                          </div>
+                      </a> </li>
+                       <li><a href="#">
+                          <img src="images/main19.jpg"/>
+                          <h3>红米4A 全网通版</h3>
+                          <p>5.5"高清大屏</p>
+                          <div class="price">
+                             ￥99<span>起</span>
+                          </div>
+                          <div class="sub">
+                              立减50元
+                          </div>  
+                      </a> </li>
+                 </ul>
+             </div>
+             <div class="more">
+                 <a href="#">更多新品 ></a>
+             </div>
+        </div>
+    </div>
+    <!--section4-->
+    <div class="section4">
+        <div class="section4-up">
+             <a href="#"><img src="images/main20.jpg"/></a>
+        </div>
+        <div class="section4-down">
+             <div class="section4-t">
+                 <a href="#"><img src="images/main21.jpg"/></a>
+             </div>
+             <div class="section4-b">
+                  <ul>
+                      <li><a href="#">
+                          <img src="images/main22.jpg"/>
+                      </a></li>
+                      <li><a href="#">
+                          <h3>米动手表青春版</h3>
+                          <p>4种运动模式，满足你的各种运动需求</p>
+                          <div class="price">
+                             <span>￥</span>399
+                          </div> 
+                      </a></li>
+                       <li><a href="#">
+                          <h3>米动手表青春版</h3>
+                          <p>4种运动模式，满足你的各种运动需求</p>
+                          <div class="price">
+                             <span>￥</span>399
+                          </div> 
+                      </a></li>
+                      <li><a href="#">
+                          <img src="images/main23.jpg"/>
+                      </a></li>
+                       <li><a href="#">
+                          <img src="images/main24.jpg"/>
+                      </a></li>
+                      <li><a href="#">
+                          <h3>AMAZFIT运动手表</h3>
+                          <p>GPS实时轨迹，精确掌握运动数据</p>
+                          <div class="price">
+                             <span>￥</span>799
+                          </div> 
+                      </a></li>
+                  </ul>
+             </div>
+             <div class="more">    
+                 <a href="#">更多米家智能产品 ></a>
+             </div>
+        </div>
+    </div>
+     <!--section5-->
+    <div class="section5">
+        <div class="section5-up">
+             <a href="#"><img src="images/main25.jpg"/></a>
+        </div>
+        <div class="section5-down">
+             <div class="section5-t">
+                 <a href="#"><img src="images/main26.jpg"/></a>
+             </div>
+             <div class="section5-b">
+                 <ul>
+                     <li><a href="#">
+                          <img src="images/main27.jpg"/>
+                          <h3>小米电视4C 43英寸</h3>
+                          <p>超窄边，高清智能电视</p>
+                          <div class="price">
+                             ￥1799<span><del>￥2099</del></span>
+                          </div>
+                          <div class="sub">
+                              立减200元
+                          </div> 
+                      </a> </li>
+                       <li><a href="#">
+                          <img src="images/main28.jpg"/>
+                          <h3>小米电视4A 49英寸</h3>
+                          <p>全高清，HDR,64位处理器</p>
+                          <div class="price">
+                             ￥2199<span><del>￥2399</del></span>
+                          </div>
+                          <div class="sub">
+                              立减200元
+                          </div> 
+                      </a> </li>
+                       <li><a href="#">
+                          <img src="images/main29.jpg"/>
+                          <h3>小米电视4C 45英寸</h3>
+                          <p>4K HDR 人工智能系统</p>
+                          <div class="price">
+                             ￥2899<span><del>￥3099</del></span>
+                          </div>
+                          <div class="sub">
+                              立减200元
+                          </div> 
+                      </a> </li>
+                      <li><a href="#">
+                          <img src="images/main30.jpg"/>
+                          <h3>小米电视4A 43英寸</h3>
+                          <p>4K HDR 人工智能系统</p>
+                          <div class="price">
+                             ￥2699<span><del>￥2699</del></span>
+                          </div>
+                         <div class="sub">
+                              立减200元
+                          </div>>  
+                      </a> </li>
+                       <li><a href="#">
+                          <img src="images/main31.jpg"/>
+                          <h3>小米充电宝</h3>
+                          <p>5.5"高清大屏</p>
+                          <div class="price">
+                             ￥399<span><del>￥449</del></span>
+                          </div>
+                          <div class="sub">
+                              立减50元
+                          </div>
+                      </a> </li>
+                       <li><a href="#">
+                          <img src="images/main32.jpg"/>
+                          <h3>红米4A 全网通版</h3>
+                          <p>5.5"高清大屏</p>
+                          <div class="price">
+                             ￥299<span><del>￥349</del></span>
+                          </div>
+                          <div class="sub">
+                              立减50元
+                          </div>  
+                      </a> </li>
+                 </ul>
+             </div>
+             <div class="more">
+                 <a href="#">更多小米电视产品 ></a>
+             </div>
+        </div>
+    </div>
+     <!--section6-->
+    <div class="section6">
+         <ul>
+              <li><a href="#"><img src="images/main33.jpg"/></a></li>
+              <li><a href="#"><img src="images/main34.jpg"/></a></li>
+              <li><a href="#"><img src="images/main35.jpg"/></a></li>
+              <li><a href="#"><img src="images/main36.jpg"/></a></li>
+              <li><a href="#"><img src="images/main37.jpg"/></a></li>
+              <li><a href="#"><img src="images/main38.jpg"/></a></li>
+         </ul>
+    </div>
+   <!-- section7-->
+   <div class="section7">
+       <a href="#"><img src="images/main39.jpg"/></a>
+   </div>
+</main>
+<!--main end-->
+<!--footer-->
+<footer class="footer">
+   <ul>
+       <li><a href="#" class="footer-first">
+           <i class="iconfont">&#xe6c9;</i>
+           <p>首页</p>
+       </a></li>
+       <li><a href="#">
+           <i class="iconfont">&#xe605;</i>
+           <p>分类</p>
+       </a></li>
+       <li><a href="#">
+           <i class="iconfont">&#xe607;</i>
+           <p>购物车</p>
+       </a></li>
+       <li><a href="#">
+           <i class="iconfont">&#xe64f;</i>
+           <p>我的</p>
+       </a></li>
+   </ul>
+</footer>
+
+<!--banner--> 
+<script src="js/swiper-4.1.0.min.js"></script>
+<script>        
+  var mySwiper = new Swiper ('.swiper-banner', {
+    direction: 'horizontal',
+    loop: true,
+    autoplay:true,
+	 autoplay: {
+    delay: 3000,
+    stopOnLastSlide: false,
+    disableOnInteraction:false,
+    },
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+	  clickable :true,
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+    
+  })       
+  </script>
+  <script>
+    var swiper = new Swiper('.swiper-notice', {
+      direction: 'vertical',
+	  autoplay:true,
+	  loop:true,
+	 autoplay: {
+		delay: 3000,
+		stopOnLastSlide: false,
+		disableOnInteraction:false,
+		},
+     
+    });
+  </script>
+  
+   
+</body>
+</html>
